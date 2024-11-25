@@ -4,3 +4,11 @@ body {
     color: blueviolet;
 
 }
+#Senac {
+    height: 55vh;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

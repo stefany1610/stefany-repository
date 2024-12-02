@@ -1,14 +1,47 @@
-body {
-
-    background-color: aqua;
-    color: blueviolet;
-
+body{
+    background-color: rgba(0, 255, 42, 0.533);
+    color:aliceblue;
+font-family: "Bokor", system-ui;
 }
-#Senac {
-    height: 55vh;
-    width: 100%;
 
+.chamada{
+    background-color: rgb(201, 189, 22);
+    padding-top: 80px;
+    padding-bottom: 80px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.chamada-texto {
+    margin-right: 10%;
+}
+h1{
+    font-size: 30px;
+}
+p{
+    font-size: 30px;
+}
+header{
+    font-size: 30px;
+    padding-left: 20px;
+}
+img{
+    height: 200px;
+}
+
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    background-color: rgb(16, 31, 189);
+}
+.categoria-videos{
+    display: flex; 
+    overflow-x: auto;
+    gap: 10px;
+}
+h2{
+    font-size: 30px;
 }
